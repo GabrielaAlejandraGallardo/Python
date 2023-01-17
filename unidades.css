@@ -1,0 +1,14 @@
+body{padding: 20px;margin: 0;}
+/*.escenario1{margin: 10px 0px; border: 1px solid #ccc;padding: 10px;width: 100%;}
+.escenario2{margin: 10px 0px; border: 1px solid #ccc;padding: 10px;width: 100%;}*/
+.escenario{margin: 16px 0px; border: 1px solid #ccc;padding: 5px;}
+.escenario1{width: 100%;}
+.escenario2{width: 50%;}
+.px{background-color: aqua; width: 200px;}
+/*pixeles es una unidad fija xq nindependientemente del padre donde este, 
+va a tener la misma unidad da igual el contexto donde este*/
+.porcentaje{background-color: rgb(236, 97, 187);width: 50%;}
+/*porcentaje hace referencia al elemento padre en este caso el div esenario 1 que lo contiene*/
+.view{background-color: rgb(13, 255, 0);width:50vw;}
+/*nos pone al 50 % del ancho de la pantalla, haciendo referencia view width anchura de la pantalla*/
+.view{height: 10vw}/*Altura del div view*/
